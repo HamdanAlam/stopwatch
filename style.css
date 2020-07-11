@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+   text-align: center; 
+}
+h1{
+    color: white;
+    display: inline-block;
+    width: 100px;
+    font-size: 72px;
+}
+h2{
+    color: white;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+}
+.button{
+    text-align: center;
+
+}
+button{
+    color: tomato;
+    font-size: 30px;
+    border-radius: 10px;
+    
+}
+button:hover{
+    color:brown;
+    background-color: coral;
+}
+#start:disabled{
+    color: gray;
+}
+#start[disabled]:hover{
+    background-color: grey;
+    color:none;
+}
